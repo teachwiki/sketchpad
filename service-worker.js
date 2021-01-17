@@ -17,7 +17,7 @@
 //# sourceMappingURL=sw-toolbox.js.map
 
 
-toolbox.precache(["./","./index.html","min/app-loader.min.css?2020.0.190","min/app-loader.min.js?2020.0.190","min/app.min.css?2020.0.190","min/app.min.js?2020.0.190","min/inline.min.css?2020.0.190","min/inline.min.js?2020.0.190","min/sketch-api.min.css?2020.0.190","min/sketch-api.min.js?2020.0.190"])
+toolbox.precache(["./","./index.html","min/app-loader.min.css","min/app-loader.min.js","min/app.min.css","min/app.min.js","min/inline.min.css","min/inline.min.js","min/sketch-api.min.css","min/sketch-api.min.js"])
 
 toolbox.router.get('', toolbox.fastest)
 toolbox.router.get('index.html', toolbox.fastest)
